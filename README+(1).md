@@ -1,4 +1,4 @@
-# Project Name
+# BoomBikes Demand Prediction Project
 > Outline a brief description of your project.
 
 
@@ -11,27 +11,38 @@
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+BoomBikes, a US-based bike-sharing provider, experienced significant revenue declines during the COVID-19 pandemic. To recover and strategically plan for post-pandemic operations, the company seeks to understand the factors influencing bike-sharing demand. By analyzing a comprehensive dataset encompassing daily bike rentals, weather conditions, and user behavior patterns, this project aims to:
+
+- Identify significant variables affecting bike demand.
+- Develop a predictive model to forecast future demand.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+1. The rental count is likely to increase with an increase in temperature. So they should start marketing heavily 
+in regions that are higher in temperature and humidity
+
+2. Rental count is likely to decrease in regions with light rain/snow weather patterns. Hence the company should 
+not invest heavily in such regions as it will be an insignificant investment.
+
+3. Fall season encounters a heavy rise in rental count. Hence the company should focus on regions with heavy rainfall
+and specially during months October.
+
+4. On the other hand, rental count is likely to decrease during Spring season. So company can offer
+discounts or other offers that may enhance the numbers during Spring.
+
+5. Rental count is likely to high with every passing year. Hence company must plan accordingly in advance on supply of
+bikes per region.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
-
+- Programming Language: Python
+- Data Analysis Libraries: Pandas, NumPy
+- Data Visualization: Matplotlib, Seaborn
+- Machine Learning: Scikit-learn
+- Statistical Analysis: Statsmodels
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
@@ -42,7 +53,7 @@ Give credit here.
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@salimbasha513] - feel free to contact me!
 
 
 <!-- Optional -->
